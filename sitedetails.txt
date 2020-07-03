@@ -1,0 +1,20 @@
+website name easy-attendance
+website pass collegeproject123
+Database name  usersdb
+Database username easyattendance
+Password collegeproject
+
+
+easyattendance@yandex.com +13648887074
+
+
+
+saad1234
+saad123
+
+
+Student Login
+3tybsc1
+
+where 3 is admin id
+1 is student id

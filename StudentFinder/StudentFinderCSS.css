@@ -1,0 +1,215 @@
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F05F40;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #f05f40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #F05F40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #F05F40 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #fff;
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #F05F40;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #f05f40;
+  }
+}
+
+.bg-dark {
+  background-color: #212529 !important;
+}
+
+.activeLink
+{
+	color: #f05f40 !important;	
+}
+
+#form-div{
+  background-color: #212529 ;
+  box-shadow: 0 0 5px #000;
+  border: 1px solid #DFE1E3;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-top: 20px; 
+}
+
+body
+{
+  background-color: #F05F40;
+  color: #fff;
+
+}
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
+
+#submitButton {
+    position:relative;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 45px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    column-rule-color: rgb(255, 255, 255);
+    align-items: flex-start;
+    perspective-origin: 45.9219px 22.5px;
+    transform-origin: 45.9219px 22.5px;
+    user-select: none;
+    caret-color: rgb(255, 255, 255);
+    background: rgb(21, 140, 186) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px solid rgb(18, 123, 163);
+    border-right: 1px solid rgb(18, 123, 163);
+    border-bottom: 4px solid rgb(18, 123, 163);
+    border-left: 1px solid rgb(18, 123, 163);
+    border-radius: 4.8px 4.8px 4.8px 4.8px;
+    font: normal normal 700 normal 16.8px / 25.2px "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 8px 16px;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+}
+
+#submitButton:not(.disabled):hover {
+    top: 1px;
+    border-bottom-width: 3px;
+}
+
+#submitButton:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+#submitButton:hover, #submitButton:focus {
+    text-decoration: none;
+}
+#submitButton:hover {
+    color: #fff;
+    background-color: #117298;
+    border-color: #106a8c;
+}
+
+#submitButton:focus, #submitButton.focus {
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(21,140,186,0.5);
+    box-shadow: 0 0 0 0.2rem rgba(21,140,186,0.5);
+}
+@media (max-width: 991px) {
+  .checkboxDiv{
+    margin-left: 160px;
+  }
+}
+@media (max-width: 845px) {
+  .checkboxDiv{
+    margin-left: 120px;
+  }
+}
+@media (max-width: 700px) {
+  .checkboxDiv{
+    margin-left: 80px;
+  }
+}
+@media (max-width: 620px) {
+  .checkboxDiv{
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  #submitButton{
+    margin-left: 160px;
+  }
+  .checkboxDiv{
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  #submitButton{
+    margin-left: 110px;
+  }
+  .checkboxDiv{
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 360px) {
+  #submitButton{
+    margin-left: 80px;
+  }
+  .checkboxDiv{
+    margin-left: 30px;
+  }
+}
+@media (max-width: 330px) {
+  #submitButton{
+    margin-left: 70px;
+  }
+  .checkboxDiv{
+    margin-left: 20px;
+  }
+}
+@media (max-width: 300px) {
+  #submitButton{
+    margin-left: 60px;
+  }
+  .checkboxDiv{
+    margin-left: 10px;
+  }
+}

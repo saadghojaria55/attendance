@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Easy Attendance.com</title>
+
+		<link href="commons/API/Bootstrap 4.0/css/bootstrap.min.css" rel="stylesheet">
+		<link href="commons/API/fontawesome/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+		<link href='commons/fonts/OpenSans Font.css' rel='stylesheet' type='text/css'>
+		<link href='commons/fonts/Merriweather Font.css' rel='stylesheet' type='text/css'>
+		<link href="commons/API/magnific-popup/magnific-popup.css" rel="stylesheet">
+		<link href="commons/LandingPageCSS.css" rel="stylesheet">
+    <title>Firebase</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+	#contactForm {
+    background-color: #212529;
+    box-shadow: 0 0 5px #000;
+    border: 1px solid #DFE1E3;
+    border-radius: 10px;
+    padding: 40px 20px;
+    
+}</style>
+</head>
+
+<body data-gr-c-s-loaded="true" style="background-color: #F05F40;">
+
+	<nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top" id="mainNav">
+			<div class="container">
+				<a class="navbar-brand js-scroll-trigger" href="#page-top">Easy Attendance.com</a>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#services">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#signInUp">Sign In/Up</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="StudentFinder">Student's</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+    <div class="row" style="margin:79px">
+        <div class="container">
+            <h2>Feedback Form</h2>
+            <div class="alert alert-success success-message" style="display:none;">Form submitted successfully.</div>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="exampleFullName" style="color:white">Full Name</label>
+                    <input type="text" class="form-control fullname" id="exampleFullName" placeholder="Enter Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleEmail" style="color:white">Email</label>
+                    <input type="email" class="form-control email" id="exampleEmail" placeholder="Enter Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleSubject" style="color:white">Subject</label>
+                    <input type="text" class="form-control subject" id="exampleSubject" placeholder="Enter Subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleMessage" style="color:white">Message</label>
+                    <textarea class="form-control message" id="exampleMessage" placeholder="Enter Message" cols="30" rows="10" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

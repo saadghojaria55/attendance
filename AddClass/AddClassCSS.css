@@ -1,0 +1,154 @@
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F05F40;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #f05f40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #F05F40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #F05F40 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+	border-color: transparent;
+	background-color: transparent;
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+	color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+	padding: 0.5rem 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+	color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+	color: #fff;
+  }
+  #mainNav.navbar-shrink {
+	border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+	background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+	color: #F05F40;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+	color: #f05f40;
+  }
+}
+
+.bg-dark {
+  background-color: #212529 !important;
+}
+
+.activeLink
+{
+  color: #f05f40 !important;  
+}
+
+#form-div{
+  background-color: #212529;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  box-shadow: 0 0 5px #000;
+  border: 1px solid #DFE1E3;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-top: 20px; 
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+#mainForm
+{
+  text-align: center;
+}
+body
+{
+  background-color: #F05F40;
+  color: #fff;
+
+}
+#heading
+{
+  margin-top: 20px;
+  text-align: center;
+}
+#contentDiv
+{
+	padding: 30px 30px 30px 30px;
+}
+.littlepaddingBottom
+{
+	padding-bottom: 40px;
+}
+@media (max-width: 485px)
+{
+	h1
+	{
+	  font-size: 4rem !important;
+	}
+}
+@media (max-width: 440px)
+{
+	h1
+	{
+	  font-size: 3rem !important;
+	}
+	#contentDiv
+	{
+		padding: 30px 30px 0px 10px;
+	}
+}
+@media (max-width: 330px)
+{
+	#contentDiv
+	{
+		padding: 30px 30px 0px 0px;
+	}
+}
+#submitButton
+{
+	font-size: 1.2em;
+}
+.smallText
+{
+  font-size: 13px;
+}

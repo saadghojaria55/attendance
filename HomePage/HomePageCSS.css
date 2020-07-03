@@ -1,0 +1,448 @@
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F05F40;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #f05f40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #F05F40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #F05F40 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+	border-color: transparent;
+	background-color: transparent;
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+	color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+	padding: 0.5rem 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+	color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+	color: #fff;
+  }
+  #mainNav.navbar-shrink {
+	border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+	background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+	color: #F05F40;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+	color: #f05f40;
+  }
+}
+
+.bg-dark {
+  background-color: #212529 !important;
+}
+
+.activeLink
+{
+  color: #f05f40 !important;  
+}
+
+#form-div{
+  background-color: #212529;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  box-shadow: 0 0 5px #000;
+  border: 1px solid #DFE1E3;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-top: 20px; 
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+#mainForm
+{
+  text-align: center;
+}
+body
+{
+  background-color: #F05F40;
+  color: #fff;
+
+}
+.profilePic
+{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+#heading
+{
+  float: right;
+  margin-right: 80px;
+  margin-top: 20px;
+  text-align: center;
+}
+@media (max-width: 1225px) {
+	#heading
+	{
+		margin-right: -20px;
+	}
+	#contentDiv
+	{
+		margin-left: -60px !important;
+	}
+}
+@media (max-width: 1140px) {
+	#heading
+	{
+		margin-right: -50px;
+	}
+}
+@media (max-width: 1040px) {
+	#heading
+	{
+		margin-right: -100px;
+	}
+	#contentDiv
+	{
+		margin-left: -90px !important;
+	}
+}
+@media (max-width: 990px) {
+	#heading
+	{
+		margin-right: 150px;
+	}
+	#contentDiv
+	{
+		margin-left: 50px !important;
+	}
+
+}
+@media (max-width: 920px) {
+	#heading
+	{
+		margin-right: 100px;
+	}
+	#contentDiv
+	{
+		margin-left: 30px !important;
+	}
+}
+@media (max-width: 870px) {
+	#heading
+	{
+		margin-right: 80px;
+	}
+	#contentDiv
+	{
+		margin-left: 10px !important;
+	}
+}
+@media (max-width: 835px) {
+	#heading
+	{
+		margin-right: 30px;
+	}
+	#contentDiv
+	{
+		margin-left: -80px !important;
+	}
+}
+@media (max-width: 780px) {
+	#heading
+	{
+		margin-right: 0px;
+	}
+}
+@media (max-width: 740px) {
+	#heading
+	{
+		margin-right: 50px;
+	}
+	.profilePic
+	{
+		margin-left: 250px;
+	}
+}
+@media (max-width: 700px) {
+
+	#contentDiv
+	{
+		margin-left: 50px !important;
+	}
+}
+@media (max-width: 655px) {
+	#heading
+	{
+		margin-right: 20px;
+	}
+	.profilePic
+	{
+		margin-left: 200px;
+	}
+}
+@media (max-width: 625px) {
+	#heading
+	{
+		margin-right: 0px;
+	}
+	.profilePic
+	{
+		margin-left: 170px;
+	}
+	#form-div{
+	  padding-left: 5px;
+	}
+}
+@media (max-width: 578px) {
+	#heading
+	{
+		margin-right: 0px;
+	}
+	.profilePic
+	{
+		margin-left: 170px;
+	}
+	#form-div{
+	  padding-left: 30px;
+	}
+	h1{
+	  font-size: 4rem !important;
+	}
+	#contentDiv
+	{
+		margin-left: 20px !important;
+	}
+}
+@media (max-width: 535px) {
+	#heading
+	{
+		margin-right: 60px;
+	}
+	.profilePic
+	{
+		margin-left: 120px;
+	}
+	h1{
+	  font-size: 3rem !important;
+	}
+	#contentDiv
+	{
+		margin-left: -20px !important;
+	}
+}
+@media (max-width: 480px) {
+	#heading
+	{
+		margin-right: 30px;
+	}
+	.profilePic
+	{
+		margin-left: 120px;
+	}
+	#contentDiv
+	{
+		margin-left: -40px !important;
+	}
+}
+@media (max-width: 450px) {
+	#heading
+	{
+		margin-right: 10px;
+	}
+	.profilePic
+	{
+		margin-left: 90px;
+	}
+	#contentDiv
+	{
+		margin-left: -60px !important;
+	}
+}
+@media (max-width: 427px) {
+	#heading
+	{
+		margin-right: 0px;
+	}
+	#form-div{
+	  padding-left: 10px;
+	}
+	.profilePic
+	{
+		margin-left: 70px;
+	}
+}
+@media (max-width: 390px) {
+	#contentDiv
+	{
+		margin-left: -75px !important;
+	}
+}
+@media (max-width: 290px) {
+	.profilePic
+	{
+		margin-left: 40px;
+	}
+}
+.optionDivs
+{
+	padding-left: 0px;
+	margin-left: 80px;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	width: 270px;
+	height: 200px;
+	margin-top: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+.bottomLabel
+{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	background-color: white;
+	border-color: #e4692e;
+	border-width: 2px;
+	border-style: solid;
+	text-align: center;
+	font-size: 30px;
+}
+.largeIcon
+{
+	font-size: 100px;
+}
+.rollCall
+{
+	background-color: #e56a2e;
+}
+.myClasses
+{
+	background-color: #009688;
+
+}
+.addClass
+{
+	background-color: #e07297;
+}
+.removeClass
+{
+	background-color: #32485d;
+
+}
+.editClass
+{
+	background-color: #72205b;
+}
+.support
+{
+	background-color: #53a545;
+}
+.rollCallLabel
+{
+	border-color: #e56a2e;
+	color: #e56a2e;
+}
+.myClassesLabel
+{
+	border-color: #009688;
+	color: #009688;
+}
+.addClassLabel
+{
+	border-color: #e07297;
+	color: #e07297;
+}
+.removeClassLabel
+{
+	border-color: #32485d;
+	color: #32485d;
+}
+.editClassLabel
+{
+	border-color: #72205b;
+	color: #72205b;
+}
+.supportLabel
+{
+	border-color: #53a545;
+	color: #53a545;
+}
+.cover
+{
+	width: 100%;
+	height: 100%;
+}
+.optionDivs a span
+{
+	position:absolute; 
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+	z-index: 1;
+	background-image: url('../commons/images/empty.gif');
+}
+.responsiveButton:not(.disabled):hover
+{
+	top: 3px;
+}
+.modal
+{
+    color: #222222;
+}
+.smallText
+{
+	font-size: 13px;
+}
+.invalidText
+{
+	color: #FF4136;
+}
+.emptyArea
+{
+	color: #dc3545;
+	font-size: 20px;
+}
+.col-lg-3 optionDivs support responsiveButton
+{
+display:none;
+}
